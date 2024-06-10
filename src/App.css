@@ -1,0 +1,666 @@
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px; /* Set the width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #707070; /* Set the color of the scrollbar handle */
+  border-radius: 5px; /* Set the border radius of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e1d4d4; /* Set the color of the scrollbar handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the color of the scrollbar track */
+}
+
+/* Handle when it is at the top/bottom of the scroll area */
+::-webkit-scrollbar-button {
+  display: none; /* Hide the scrollbar buttons */
+}
+
+@media (min-width:700px) {
+  #eye{
+    width:105.5%  ;
+    margin-left: 1px;
+    position:"relative";
+    left:"-8%"
+  }
+  #Top{
+ 
+    position: fixed;
+    top:90%;
+    left:90%;
+    border:none;
+    color:"white";
+    font-size:"1.9rem";
+    border-radius: "43px 43px 43px 43px";
+    z-index: 10000;
+  }
+  #file{
+    display:none;
+    padding-left:24px;
+    color:white;
+    font-size: 2.9rem;
+    font-family: cursive;
+  }
+  .icon{
+    font-size:1.5rem;
+    position: relative;
+    top:13.7rem;
+    left: 0rem;
+    width: 18rem;
+    background-color: #4387ec;
+    border-radius:9px;
+    padding: 10.9px;
+    font-family: cursive;
+
+  }
+  .button1{
+    border: none;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    right:-0.2rem;
+    top:13.7rem;
+    font-size: 28px;
+    color: #000;
+    background-color: #4387ec;
+    border-radius: 9px;
+    padding: 4px;
+    width: 3rem;
+    
+  }
+  .button{
+    position: relative;
+    bottom:11rem;
+  }
+}
+
+@media (min-width:501px)  and (max-width : 699px){
+  
+
+  #Top{
+    position: fixed;
+    top:90%;
+    left:90%;
+    border:none;
+    color:"white";
+    font-size:"1.9rem";
+    border-radius: "43px 43px 43px 43px";
+    z-index: 10000;
+  }
+}
+@media (max-width:500px)
+{
+  #Top{
+    position: fixed;
+    top:90%;
+    left:40%;
+    border:none;
+    color:"white";
+    font-size:"1.9rem";
+    border-radius: "43px 43px 43px 43px";
+    z-index: 10000;
+  }
+}
+@media (max-width:700px){
+  
+  #eye{
+    width:110.5% !important ;
+    margin-left: 1px;
+    position:"relative";
+    left:"-8%"
+  }
+  #phone_style{
+    margin-top: 80px;
+    width:16rem;
+    height:20rem;
+    position: relative;
+    left:20%;
+    color:rebeccapurple;
+    background-color: aliceblue;
+  }
+  .phone{
+    position: relative;
+    bottom:5rem
+  }
+  #file{
+    display:none;
+    padding-left:24px;
+    color:white;
+    font-size: 2.9rem;
+    font-family: cursive;
+  }
+  #text2{
+    position: relative;
+    margin: 27px;
+    font-family: cursive;
+  }
+  .dp{
+    width:50%;
+    height:30%;
+    border-radius:50%;
+
+  }
+  #text4{
+
+    display: none;
+  }
+  .text5{
+    display: none;
+  }
+  .icon{
+    font-size:1.5rem;
+    position: relative;
+    top:13.7rem;
+    left: 0rem;
+    width: 18rem;
+    background-color: #4387ec;
+    border-radius:9px;
+    padding: 10.9px;
+    font-family: cursive;
+
+  }
+  #som{
+      position: sticky;
+      background-image:url('https://marketplace.canva.com/EAFzgE70idQ/1/0/1131w/canva-green-playful-illustrative-activism-poster-0-t-u-adtxc.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding-bottom:-1rem;
+      margin-top:4rem;
+      height: 50vh; /* Set a fixed height */
+      animation: fadeInOut 9s infinite;
+  }
+  @keyframes fadeInOut {
+    0%,100%{
+      filter: brightness(0.2); /* Start and end with opacity 0 for a fade-in effect */
+    }
+    50% {
+      filter: brightness(0.5); /* Middle of the animation with opacity 1 for a fade-out effect */
+    }
+    75%{
+      filter: brightness(0.5);
+    }
+    100%{
+      filter: brightness(0.2);
+    }
+  }
+  .phone{
+     font-family: cursive;
+  }
+  #camera{
+    display: none;
+  }
+
+  .button1{
+    border: none;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    right:-0.2rem;
+    top:13.7rem;
+    font-size: 28px;
+    color: #000;
+    background-color: #4387ec;
+    border-radius: 9px;
+    padding: 4px;
+    width: 3rem;
+    
+  }
+  .button{
+    position: relative;
+    bottom:11rem;
+  }
+}
+@media (min-width:700px){
+#phone_style{
+  height:29rem;
+  width:37rem;
+  
+}
+.phone{
+  display: none;
+}
+/* #file{
+  display:none;
+  padding-left:22px;
+  color:white;
+  font-size: 2.9rem;
+  font-family: cursive;
+} */
+#text2{
+ margin:27px;
+ font-family: cursive;
+}
+
+/* #fileStyle{
+  padding-left:33%;
+  color:white;
+  font-size:1.9rem;
+  padding-top: 10%;
+} */
+/* .icon{
+  font-size: 2.4rem;
+} */
+#camera{
+  position: relative;
+  width: 0%;
+  left: 8rem;
+  top:6rem;
+  font-family: cursive;
+}
+#text4{
+  position: relative;
+  left:62%;
+  top:-20rem;
+  font-family: cursive;
+}
+/* 
+.button1{
+   border: none;
+   background-color: transparent;
+   color: white;
+   padding-left: 19%;
+   padding-top: 10%;
+}
+.button{
+  width: 125px;
+   position: relative;
+   top: -0.6rem;
+   left: 23rem;
+   background-color: #0d6efd;
+   height: 15%;
+   border-radius: 7px;
+   font-size: 1.4rem;
+} */
+.error-message{
+  color:"red";
+}
+.dp{
+  width:50%;
+  height:30%;
+  border-radius:50%;
+}
+}
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 103px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+}
+.slide{
+  display: flex;
+  border-radius: 10px;
+  animation: slideer 10s infinite linear;
+}
+.slide2{
+  display: flex;
+  border-radius: 10px;
+  animation: slid 10s infinite linear;
+}
+@keyframes slid {
+
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-35%);
+  }
+  75% {
+    transform: translateX(-35%);
+  }
+  100% {
+    transform: translateX(-69%);
+  }
+  100% {
+    transform: translateX(-69%);
+  }
+  
+}
+@keyframes slideer {
+
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  75% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+  
+}
+#slideeer{
+  display: flex;
+  animation: slideeeer 25s infinite linear;
+}
+@keyframes slideeeer {
+
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-80%);
+  }
+  65% {
+    transform: translateX(-80%);
+  }
+  75% {
+    transform: translateX(-150%);
+  }
+  80% {
+    transform: translateX(-150%);
+  }
+  90%{
+    transform: translateX(-207.35%);
+  }
+  100%{
+    transform: translateX(-207.35%);
+  }
+  
+}
+.swiper {
+  height:27rem;
+  width: 23rem;
+  
+}
+#form-right1 {
+  position: relative;
+  animation: slideFromTop 1s linear;
+  
+}
+#form-right2 {
+  position: relative;
+  animation: slideFromTop 2.5s linear;
+  
+}
+#form-right3 {
+  position: relative;
+  animation: slideFromTop 3.5s linear;
+  
+}
+#form-right4 {
+  position: relative;
+  /* animation: slideFromTop 4s linear; */
+  
+}
+#form-right5 {
+  position: relative;
+  /* animation: slideFromTop 4.2s linear; */
+  
+}
+#form-right6 {
+  position: relative;
+  /* animation: slideFromTop 4.5s linear; */
+  
+}
+#form-right6 {
+  position: relative;
+  /* animation: slideFromTop 1s linear; */
+  
+}
+#form-right7 {
+  position: relative;
+  /* animation: slideFromTop 2.5s linear; */
+  
+}
+#form-right8 {
+  position: relative;
+  /* animation: slideFromTop 3.5s linear; */
+  
+}
+#form-visible{
+  animation: opacity 2s linear;
+  
+}
+#rider-show{
+  opacity: 1;
+  position: relative;
+  left:0px;
+  animation: slideFromRight 3s linear;
+}
+.riderRegister:hover{
+  zoom:1.2;
+}
+.rider{
+  position: relative;
+  left:-1500px;
+}
+@keyframes slideFromRight {
+  0% {
+    left: -500px;
+  }
+  100% {
+    left: 0px;
+
+  }
+}
+@keyframes opacity {
+  0% {opacity: 0;}
+  20% {opacity: 0.1}
+  40% {opacity: 0.3}
+  60% {opacity: 0.6}
+  80% {opacity: 0.8}
+  100% {opacity: 1}
+}
+@keyframes slideFromTop {
+  0% {
+    top: -100px;
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.2;
+  }
+  75%{
+    opacity: 0.6;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slider {
+  
+  100% { transform: translateX(-90%); }
+ 
+}
+@keyframes slider1 {
+  
+  100% { transform: translateX(-100%); }
+ 
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Optional: Add some styling to make it visually appealing */
+.slider {
+  border: 2px solid #ccc;
+}
+
+
+.slides {
+  /* border: 2px solid #ccc;
+  border-radius: 8px; */
+  overflow: hidden;
+}
+
+.slides1 {
+  border-radius: 8px;
+  overflow: hidden;
+}
+  /* Custom styles for the offcanvas menu */
+  .offcanvas-header {
+    background-color: #343a40; /* Dark background color for header */
+    color: #fff; /* Text color for header */
+  }
+
+  .offcanvas-body {
+    background-color: #f5f5f5; /* Light background color for body */
+  }
+
+  /* Custom styles for navigation links */
+  .navbar-nav p {
+    color: #808183; /* Text color for navigation links */
+    ; /* Smooth color transition on hover */
+  }
+  
+  .navbar-nav li{
+    height: 50px;
+  }
+  .navbar-nav p:hover {
+    
+    background-color: #ccc;
+    width:24vw;
+    border-radius: 5px;
+    padding: 2% 2% 2% 2%;
+  
+  }
+
+  /* Custom styles for navbar background */
+  .navbar {
+    background-color: #484a4d; /* Background color for the navbar */
+  }
+ 
+  
+  #coin {
+   
+    animation: bounce linear infinite 2s;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    40% {
+      transform: translateY(-15px) ;
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+
+  /* Add this CSS to your stylesheet or style tag */
+.table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: #e2e6ea;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:disabled {
+  color: #dc3545;
+  background-color: transparent;
+  border-color: #dc3545;
+  cursor: not-allowed;
+}
+
+.btn-outline-danger:disabled:hover {
+  background-color: transparent;
+  color: #dc3545;
+}
+
+#visiblelog{
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: #d9dce1;
+  border-radius: 9px;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+  width: 320px;
+  height: 250px;
+  padding: 24px 29px 5px 16px;
+  box-shadow: 0px 2px 17px 3px;
+  transition: 2s ease-in-out;
+}
+#logout{
+ transition: 2s ease-in-out;
+}
+
+.toggleButton{
+  border:1px solid blue;
+  background: none;
+  border-radius: 18px 18px 18px 18px;
+  height: 40px;
+  width: 100px;
+  z-index: 999999;
+}
+.famoon{
+  float: left;
+  z-index: 1000;
+  position: relative;
+  font-size: 1.5rem;
+  left:-3%;
+  width: 36px;
+  height: 36px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 2px 2px 2px 2px;
+  background-color: #c8d0d8;
+}
+
+#row{
+  padding:10px 10px 10px 10px;
+}
+#button1{
+  color: white;
+  background-color: #5cb85c;
+}
+#button2{
+  color: white;
+  background-color: rgb(215, 72, 72);
+}
